@@ -1,0 +1,38 @@
+html {
+	font-size: 28px;
+}
+
+body {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 1rem;
+	background-color: #F2F2F2;
+}
+
+aside {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 1rem;
+	width: 20rem;
+	align-items: flex-start;
+}
+
+button {
+	background-color: #9FB8AD;
+	padding: 0.1rem 0.5rem;
+	font-size: 18px;
+	border-radius: 0.2rem;
+}
+
+.filter-button--active {
+	background: #3F403F;
+	color: #9FB8AD;
+}
+
+/* .list-item {
+	display: none;
+}
+
+.list-item--visible {
+	display: block;
+} */
